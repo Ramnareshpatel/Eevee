@@ -15,8 +15,8 @@ from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
 PHOTO = [
-    "https://telegra.ph/file/bb8017179ad21690aa91d.jpg",
-    "https://telegra.ph/file/9f3d0f89e82e800d01001.jpg"
+    "https://telegra.ph/file/ccc8e04bfe0b749debb07.jpg",
+    "https://telegra.ph/file/242dfd4acde36a2b52101.jpg"
 ]
 
 
