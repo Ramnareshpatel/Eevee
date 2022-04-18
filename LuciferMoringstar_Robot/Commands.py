@@ -94,7 +94,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/movieshub_group"),
+                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/Movies_4you"),
                     ]
                     ]
                 await bot.send_cached_media(
@@ -125,19 +125,19 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url= "https://t.me/MH_Eevee_bot?startgroup=true")
+                        InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url= "http://t.me/Oggy_autofilter_v3_Bot?startgroup=true")
                     ],
                     [
                         InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="telegram.me/STMbOTsUPPORTgROUP")
+                        InlineKeyboardButton("💫 𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💫", url="https://t.me/Movies_4you")
                     ],
                     [
-                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="telegram.me/VAMPIRE_KING_NO_1"),
-                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 2🔥", url="telegram.me/DARK_ANGEL_TG")
+                        InlineKeyboardButton("🍁 𝙈𝙮 𝘿𝙚𝙫 🍁", url="https://t.me/KingOf_univers"),
+                        InlineKeyboardButton("✨ 𝙐𝙥𝙙𝙖𝙩𝙚𝙯 ✨", url="telegram.me/DARK_ANGEL_TG")
                     ],
                     [
-                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about"),
-                        InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help")
+                        InlineKeyboardButton("😎 𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about"),
+                        InlineKeyboardButton("💫 𝙃𝙚𝙡𝙥 💫", callback_data="help")
                     ]    
                 ]
             )
@@ -350,8 +350,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [                   
-                InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help"),
-                InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM')
+                InlineKeyboardButton("💫 𝙃𝙚𝙡𝙥 💫", callback_data="help"),
+                InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/Movies4youBackup')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
