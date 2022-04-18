@@ -29,11 +29,11 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**👾𝙅𝙊𝙄𝙉 𝙈𝙔 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙏𝙊 𝙐𝙎𝙀 𝙈𝙀🤙🏻**",
+                text="**👾𝙅𝙊𝙄𝙉 𝙈𝙔 𝙐𝙋𝘿𝘼𝙏𝙀𝙕 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙏𝙊 𝙐𝙎𝙀 𝙈𝙀🤙🏻**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ🏻", url=invite_link.invite_link)
+                            InlineKeyboardButton("Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇᴢ ᴄʜᴀɴɴᴇʟ🏻", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -277,8 +277,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                       InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about"),
-                       InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat='')
+                       InlineKeyboardButton("😎 𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about"),
+                       InlineKeyboardButton("🔍𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat='')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
