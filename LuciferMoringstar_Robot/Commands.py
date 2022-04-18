@@ -133,7 +133,7 @@ async def start(bot, message):
                     ],
                     [
                         InlineKeyboardButton("🍁 𝙈𝙮 𝘿𝙚𝙫 🍁", url="https://t.me/KingOf_univers"),
-                        InlineKeyboardButton("✨ 𝙐𝙥𝙙𝙖𝙩𝙚𝙯 ✨", url="telegram.me/DARK_ANGEL_TG")
+                        InlineKeyboardButton("✨ 𝙐𝙥𝙙𝙖𝙩𝙚𝙯 ✨", url="telegram.me/Movies4youBackup")
                     ],
                     [
                         InlineKeyboardButton("😎 𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about"),
